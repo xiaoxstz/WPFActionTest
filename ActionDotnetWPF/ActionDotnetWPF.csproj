@@ -7,6 +7,19 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
     <Platforms>AnyCPU;x64;x86;ARM32;ARM64</Platforms>
+    <PackageIcon>floppy-disk-solid.png</PackageIcon>
+    <ApplicationIcon>image\floppy-disk-solid.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="image\floppy-disk-solid.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="image\floppy-disk-solid.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
